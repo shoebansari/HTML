@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  background-image: url('../Images/bacground/bg1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+ul{
+  float: right;
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+ul li a:hover{
+  background-color:#fff;
+  color: #000;
+}
+ul li a.active{
+  background-color:#fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  height: 200px;
+  width: 250px;
+}
+
+.main{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  left: 40%;
+  top: 45%;
+}
+
+.title h1{
+  font-size: 60px;
+  color: #fff;
+}
+
+.button{
+  position: absolute;
+  left: 45%;
+  top: 60%;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border:1px solid #fff;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}

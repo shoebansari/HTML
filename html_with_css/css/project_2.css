@@ -1,0 +1,53 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+  width: 99%;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.left-div{
+  width: 20%;
+  height: 700px;
+  float: left;
+  border: 1px solid green;
+}
+
+.right-div{
+  width: 79%;
+  border: 1px solid black;
+  height: 700px;
+  float: left;
+}
+.footer{
+  width: 99%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.right-div-top{
+    width: 97%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.right-div-left{
+  width: 50%;
+  height: 585px;
+  float: left;
+  border: 1px solid red;
+  margin-left: 20px;
+}
+
+.right-div-right{
+  float: left;
+  width: 45%;
+  height: 585px;
+  border: 1px solid red;
+  margin-left: 23px;
+}
