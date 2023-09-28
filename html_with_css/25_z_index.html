@@ -1,0 +1,41 @@
+<html>
+  <!-- https://www.youtube.com/watch?v=L58hlU1gl0M -->
+  <head>
+    <style>
+      .container{
+        height: 500px;
+        width: 500px;
+        border: 1px solid red;
+        position: relative;
+      }
+      .one{
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      .two{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        position: absolute;
+        z-index: 1;
+      }
+      .three{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        position: absolute;
+      }
+    </style>
+  </head>
+<body>
+  <div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+</body>
+
+</html>

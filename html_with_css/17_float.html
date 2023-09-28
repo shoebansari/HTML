@@ -1,0 +1,51 @@
+<html>
+  <body>
+    <!--Floats have 4 properties.
+    left, right, none, inherit
+
+    MY UNDESTANDING->where float:left applied that element will take only its witdh size then will float another element 
+    from window left
+    -->
+    <!-- <p>
+      <img src="../Images/BackImg.jpeg" height="200" width="300" style="float:right;">
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+      This is just a text and added with the image.
+    </p> -->
+
+    <!--Normally div elements will be displayed on top of each other. However, 
+      if we use float: left we can let elements float next to each other:
+    -->
+    <!-- <div style="height: 100; width: 200; border: red 1px solid;">
+
+    </div>
+    <div style="height: 100; width: 200; border:green 1px solid;">
+
+    </div>
+    <div style="height: 100; width: 200; border:yellow 1px solid;">
+
+    </div>
+    <div style="height: 100; width: 200; border:black 1px solid;">
+
+    </div> -->
+
+
+    <!--Clear Property
+    The clear property specifies what should happen with the element that is next to a floating element.
+    none,left,right,both
+    -->
+
+    <h2>Without clear</h2>
+    <div style="float: left;border: 1px solid red;">div1 </div>
+    <div style="border: 3px solid green;">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.</div>
+    <br><br>
+    <div style="float: left;border: 1px solid red;">div1 </div>
+    <div style="border: 3px solid green; clear: left;">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.</div>
+    <br><br>
+  </body>
+</html>

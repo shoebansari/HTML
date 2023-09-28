@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <style>
+      ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        background-color: #333;  
+        overflow: hidden; /* Floated elements do not add height to their containing element. Adding the overflow property gives the containing ul height (which is where your background color is coming from). Inspect in your web browser and notice that the ul height goes to 0 when overflow is removed.*/
+      }
+      li{
+        float: left;
+        /* height: 30px;
+        padding-top: 10px; */
+      }
+      li a{
+        text-decoration: none;
+        color:white;
+        text-align: center;      
+        padding:15px;
+        display: block; /* use li's height and padding-top to remove display:block*/
+      }
+
+      li a:hover{
+        background-color:tomato;
+      }
+      .active{
+        background-color: #04AA6D;
+      }
+    </style>
+  </head>
+  <body>
+    <!--There are two ways to create a horizontal navigation bar. Using inline or floating list items.-->
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">AboutUs</a></li>
+      <li><a href="#">ContactUs</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </body>
+</html>
