@@ -1,0 +1,78 @@
+<!-- 
+1-What is box model
+A rectangular box is wrapped around every html element. the box model is used to determine the height and width of
+rectangular box.
+
+2-what are the different type of the selectors in css.
+//universal selector
+  *{}
+//element type selector
+  ul{}
+//Id selector
+ #container{}
+//Class selector
+.container{}
+//Descendant Combinator
+#container .box{
+//Child combinator
+#container> .box{
+} 
+
+3-diffrence between display:block, display:inline, display:inline-block
+
+Block element-
+The block elements always start on a new line. They will also take space for an entire row or width. 
+List of block elements are <div>, <p>.
+
+  Inline Elements: 
+Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. 
+Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. 
+
+  Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and
+margins and set height and width values.
+
+4-diffrence between box-sizing:border-box and box-sizing:content-box?
+bydefault box-sizing is content-box,
+but when box-sizing:border-box is defined the it will take padding and magin, border within the defined height and width.
+
+So on each css file top css like *{padding:0,margin:0,box-sizing:border-box} is defined
+
+5-How is opacity specified in CSS3?
+Opacity refers to the degree to which the content is transparent or opaque. We can use the property named opacity which 
+takes the values ranging from 0 to 1. 0 specifies that the element is completely transparent where 1 means that the element
+is completely opaque
+
+6- Why should we use float property in CSS?
+The float property is used for positioning the HTML elements horizontally either towards the left or right of the container. 
+
+7-What is a z-index, how does it function
+z-index is used for specifying the vertical stacking of the overlapping elements that occur at the time of its positioning
+
+8-Explain CSS position property?
+https://www.youtube.com/watch?v=MwGHiVl-gqk
+
+static(default)
+relative-relative to its normal position and will a gap at its normal position, addes left, bottom, top, right
+absolute-relative to position of its first parent and not leave the gap
+fixed- on the position and will not move while scrolling.like chat box
+sticky- position will be sticked at the top used in Menu bar.
+
+9-Grid Layout
+display:grid
+grid-template-colums:30% auto
+
+10-Diff between Grid layout and Flex box
+flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows,
+and columns at the same time
+-->
+
+<html>
+<head>
+
+</head>
+
+<body style="box-sizing: ;">
+  TEST
+</body>
+
+</html>
