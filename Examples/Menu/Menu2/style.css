@@ -1,0 +1,16 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+
+body{
+  background: url('./images/bgmenu1.jpeg') center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.menu{
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}

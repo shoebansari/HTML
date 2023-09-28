@@ -1,0 +1,63 @@
+body{
+  background: url('./images/bgImage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-bar{
+  background-color: orchid;
+  text-align: center;
+}
+
+.menu-bar ul{
+  display: inline-flex;
+  list-style-type:none;
+  color: white;
+}
+
+.menu-bar ul li{
+  width: 130px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.active, .menu-bar ul li:hover {
+  background-color: grey;
+}
+
+.sub-menu-1{
+  display: none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: green;
+   margin-top: 10px;
+   margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+
+.hoverme:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 140px;
+  background-color: grey;
+ }
